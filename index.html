@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Circle Project</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      div, section, nav {
+        width: 100%;
+        max-width: 410px;
+        text-align: center;
+      }
+
+      span {
+        color: red
+      }
+
+      img {
+        max-height: 200px;
+        margin-top: 10px;
+      }
+
+      a {
+        margin: 0 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Circle</a>
+      <a href="/about.html">About</a>
+    </nav>
+
+    <div><canvas id="unitCircle" width="410" height="410"></canvas></div>
+
+    <section id="output">Select an angle/section to view more info.</section>
+
+    <script src="circle.js"></script>
+  </body>
+</html>
