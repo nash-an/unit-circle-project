@@ -67,7 +67,7 @@ function drawUnitCircle() {
   });
 
   sections.forEach((section) => {
-    if (section.selected && section.end <= 360 && section.end >= 315) {
+    if (section.end <= 360 && section.end >= 315) {
       const endAngleRad = (section.start* Math.PI) / 180;
       const endX = centerX + radius * Math.cos(endAngleRad);
       const endY = centerY + radius * Math.sin(endAngleRad); // Adjust for flipped canvas
